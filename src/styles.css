@@ -78,7 +78,7 @@ body {
     text-align: center;
     padding-top: 20px;
 }
-
+/* 
 .heart {
     background-color: #d62828;
     display: inline-block;
@@ -90,8 +90,70 @@ body {
     left: 105px;
     transform: rotate(-45deg);
 
-}
+} */
 
+/* Flower container */
+.flower {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+  }
+  
+  /* Flower center */
+  .center {
+    width: 15px;
+    height: 15px;
+    background: yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Petal styling */
+  .petal {
+    position: absolute;
+    width: 18px;
+    height: 30px;
+    background: pink;
+    border-radius: 50%;
+  }
+  
+  /* Top petal */
+  .petal.top {
+    top: -10px;
+    left: 16px;
+  }
+  
+  /* Bottom petal */
+  .petal.bottom {
+    bottom: -10px;
+    left: 16px;
+  }
+  
+  /* Left petal */
+  .petal.left {
+    left: -10px;
+    top: 10px;
+    transform: rotate(90deg);
+  }
+  
+  /* Right petal */
+  .petal.right {
+    right: -10px;
+    top: 10px;
+    transform: rotate(90deg);
+  }
+  
+  /* Positioning the flowers */
+  .one {
+    position: absolute;
+    top: 90px;
+    left: 105px;
+  }
+/* 
 .heart:before, .heart:after{
     content: "";
     background-color: #d62828;
@@ -111,9 +173,9 @@ body {
 .heart:after{
     left:15px;
     top:0;
-}
+} */
 
-.hearts{
+/* .hearts{
     position:absolute;
     top:15px;
 }
@@ -126,6 +188,7 @@ body {
         opacity: 0.5;
     }
 }
+
 
 .one,.two,.three,.four,.five{
     background-color: red;
@@ -183,7 +246,7 @@ body {
 .five{
     left:90px;
     animation: heart 1.7s ease-out infinite;
-}
+}*/
 
 .front{
     position: absolute;
@@ -228,4 +291,4 @@ body {
     50%{
         transform: scaleX(0.85);
     }
-}
+} 
