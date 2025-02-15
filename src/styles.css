@@ -110,6 +110,7 @@ body {
     top: 18px;
     left: 18px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    z-index:1;
   }
   
   /* Petal styling */
@@ -135,14 +136,14 @@ body {
   
   /* Left petal */
   .petal.left {
-    left: -10px;
+    left: -5px;
     top: 10px;
     transform: rotate(90deg);
   }
   
   /* Right petal */
   .petal.right {
-    right: -10px;
+    right: -5px;
     top: 10px;
     transform: rotate(90deg);
   }
